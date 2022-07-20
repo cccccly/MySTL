@@ -74,6 +74,6 @@ void vector<T>::destroy_and_recover(iterator first, iterator last, size_type n)
     data_allocator::deallocate(first, n);
 }
 
-} // namespace mystl
+} // namespace mystl_c
 
 #endif // !MYSTL_VECTOR_H
